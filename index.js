@@ -3,6 +3,7 @@ if (
   !process.env.server
 ) {
   console.log(
+    node index.js <IdiakantWorld.aternos.me> [<Idiakant>] [<kushnermaksim>]
     "Используйте бота так: node index.js <IP адрес сервера> [<имя аккаунта>] [<пароль от аккаунта>]"
   );
   process.exit(1);
